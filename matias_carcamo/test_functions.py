@@ -1,4 +1,4 @@
-from matias_carcamo.functions import add, convert_to_integer, divide, get_element
+from functions import add, convert_to_integer, divide, get_element
 
 
 def test_add_numbers():
