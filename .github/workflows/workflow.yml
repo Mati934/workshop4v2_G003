@@ -19,7 +19,7 @@ jobs:
           python-version: 3.8
       
       - name: instalar pip
-        run: python -m pip install pytest
+        run: python -m pip install pytest # Faltaba instalar pytest para correr los tests
         
       - name: Run tests with pytest
-        run: cd matias_carcamo && pytest
+        run: cd matias_carcamo && pytest # Faltaba entrar a la carpeta matias_carcamo para correr los tests, ya que el workflow se ejecuta en la raíz del repositorio
