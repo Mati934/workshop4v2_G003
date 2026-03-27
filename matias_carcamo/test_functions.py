@@ -1,4 +1,4 @@
-from functions import add, convert_to_integer, divide, get_element
+from matias_carcamo.functions import add, convert_to_integer, divide, get_element
 
 
 def test_add_numbers():
@@ -17,4 +17,4 @@ def test_get_valid_element():
 def test_convert_valid_integer():
     assert (
         convert_to_integer("5.5") == 6
-    )  # No pasa el test porque se aproxima al entero más cercano, y el numero que le pasa es el 5.5 lo que sube a 6 y no 5
+    )  # No pasaba el test porque se aproxima al entero más cercano, y el numero que le pasa es el 5.5 lo que sube a 6 y no 5
